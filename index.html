@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description" content="Aaron Ventura is an IT graduate with experience in IT support, technical assistance, ATM technician training, and application development.">
+
+      <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css">
+      <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+      <link rel="stylesheet" href="assets/css/styles.css">
+
+      <title>Aaron Ventura | IT Support &amp; Application Development</title>
+   </head>
+   <body>
+      <header class="header" id="header">
+         <nav class="nav container">
+            <div class="nav__brand">
+               <a href="#home" class="nav__logo">Aaron Ventura</a>
+               <img src="assets/img/home-perfil.JPG" alt="Aaron Ventura" class="nav__logo-photo">
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+               <ul class="nav__list grid">
+                  <li><a href="#home" class="nav__link active-link">Home</a></li>
+                  <li><a href="#about" class="nav__link">About</a></li>
+                  <li><a href="#projects" class="nav__link">Skills</a></li>
+                  <li><a href="#work" class="nav__link">Experience</a></li>
+                  <li><a href="#services" class="nav__link">Toolkit</a></li>
+                  <li><a href="#education" class="nav__link">Education</a></li>
+                  <li><a href="#contact" class="nav__link">Contact</a></li>
+               </ul>
+            </div>
+
+            <button class="nav__toggle" id="nav-toggle" aria-label="Toggle menu" type="button">
+               <i class="ri-menu-line"></i>
+            </button>
+         </nav>
+      </header>
+
+      <main class="main">
+         <section class="home section" id="home">
+            <div class="home__container container grid">
+               <div class="home__content">
+                  <div class="home__data">
+                     <p class="home__subtitle">IT &amp; Application Development</p>
+                     <h1 class="home__title">Aaron <span>Ventura</span></h1>
+                     <p class="home__text">Information Technology graduate with one year of IT-DE experience, IT technician assistant training, and foundational programming and application development skills.</p>
+
+                     <div class="home__buttons">
+                        <a href="#work" class="button button--primary">Explore my experience</a>
+                        <a href="#contact" class="button button--ghost">Contact me</a>
+                     </div>
+                  </div>
+
+                  <div class="home__socials">
+                     <a href="mailto:aaronventura2003@gmail.com" aria-label="Email Aaron"><i class="ri-mail-line"></i></a>
+                     <a href="tel:+639695463870" aria-label="Call Aaron"><i class="ri-phone-line"></i></a>
+                  </div>
+               </div>
+
+               <div class="home__image">
+                  <div class="blob"></div>
+                  <div class="home__portrait">
+                     <img src="assets/img/home-perfil.JPG" alt="Portrait of Aaron Ventura" class="home__portrait-img">
+                  </div>
+                  <div class="home__badge">
+                     <i class="ri-tools-line" aria-hidden="true"></i>
+                     <span>IT &amp; DEVELOPMENT</span>
+                  </div>
+                  <div class="home__image-label">IT <span>•</span> DEVELOPER</div>
+               </div>
+            </div>
+         </section>
+
+         <section class="about section" id="about">
+            <div class="container">
+               <h2 class="section__title">Professional <span>Profile</span></h2>
+               <div class="about__content grid">
+                  <div>
+                     <p>Information Technology graduate with one year of experience in an IT-DE role at Teleperformance, three months of ATM Technician / Field Engineer training, and on-the-job training as an IT Technician Assistant. Familiar with computer setup, hardware and software troubleshooting, PC assembly, basic networking, device maintenance, and programming fundamentals.</p>
+                  </div>
+                  <div class="about__stats">
+                     <div><strong>1 year</strong><span>IT-DE experience</span></div>
+                     <div><strong>3 months</strong><span>ATM / Field Engineer training</span></div>
+                     <div><strong>IT graduate</strong><span>Diploma in Information Technology</span></div>
+                  </div>
+               </div>
+            </div>
+         </section>
+
+         <section class="projects section" id="projects">
+            <div class="container">
+               <h2 class="section__title">Core Technical <span>Competencies</span></h2>
+               <div class="projects__container swiper">
+                  <div class="swiper-wrapper">
+                     <article class="projects__card swiper-slide">
+                        <div class="projects__image"><i class="ri-computer-line" aria-hidden="true"></i></div>
+                        <h3>IT Support</h3>
+                        <p>Computer setup, hardware and software troubleshooting, PC assembly, software installation, and peripheral support.</p>
+                     </article>
+                     <article class="projects__card swiper-slide">
+                        <div class="projects__image"><i class="ri-router-line" aria-hidden="true"></i></div>
+                        <h3>Networking &amp; Systems</h3>
+                        <p>Basic network setup and cabling, desktop setup, device maintenance, and familiarity with Windows and Linux.</p>
+                     </article>
+                     <article class="projects__card swiper-slide">
+                        <div class="projects__image"><i class="ri-code-s-slash-line" aria-hidden="true"></i></div>
+                        <h3>Programming &amp; Development</h3>
+                        <p>Programming and coding fundamentals, web technologies, and foundational application development skills.</p>
+                     </article>
+                  </div>
+                  <div class="swiper-pagination"></div>
+                  <div class="swiper-button-prev"></div>
+                  <div class="swiper-button-next"></div>
+               </div>
+            </div>
+         </section>
+
+         <section class="work section" id="work">
+            <div class="container">
+               <h2 class="section__title">Work &amp; <span>Training</span></h2>
+               <div class="work__tabs" role="tablist" aria-label="Work and training history">
+                  <button class="work__tab active-tab" id="tab-teleperformance" type="button" role="tab" aria-controls="teleperformance" aria-selected="true" tabindex="0" data-target="teleperformance">Teleperformance</button>
+                  <button class="work__tab" id="tab-atm-training" type="button" role="tab" aria-controls="atm-training" aria-selected="false" tabindex="-1" data-target="atm-training">ATM Training</button>
+                  <button class="work__tab" id="tab-ojt" type="button" role="tab" aria-controls="ojt" aria-selected="false" tabindex="-1" data-target="ojt">OJT</button>
+               </div>
+
+               <div class="work__content show-work" id="teleperformance" role="tabpanel" aria-labelledby="tab-teleperformance" tabindex="0">
+                  <figure class="work__company">
+                     <img src="assets/img/teleperformance-logo.png" alt="Teleperformance company logo">
+                     <figcaption><strong>Teleperformance</strong><span>IT-DE · 1 year of experience</span></figcaption>
+                  </figure>
+                  <div class="work__item">Professional experience in a technology-focused work environment.</div>
+               </div>
+
+               <div class="work__content" id="atm-training" role="tabpanel" aria-labelledby="tab-atm-training" tabindex="0" hidden>
+                  <figure class="work__company">
+                     <img src="assets/img/opci-logo.jpg" alt="One Point Contact, Inc. (OPCI) logo">
+                     <figcaption><strong>One Point Contact, Inc. (OPCI)</strong><span>ATM Technician / Field Engineer Training · 3 months</span></figcaption>
+                  </figure>
+                  <div class="work__item">Completed three months of ATM technician and field engineer training.</div>
+               </div>
+
+               <div class="work__content" id="ojt" role="tabpanel" aria-labelledby="tab-ojt" tabindex="0" hidden>
+                  <figure class="work__company">
+                     <img src="assets/img/informatics-logo.png" alt="Informatics Baguio City Center Inc. logo">
+                     <figcaption><strong>Informatics Baguio City Center Inc.</strong><span>IT Technician Assistant OJT · January–May 2024</span></figcaption>
+                  </figure>
+                  <div class="work__item">Assisted with computers, projectors, microphones, office networks, and mobile devices.</div>
+                  <div class="work__item">Supported hardware and software troubleshooting and basic network installation.</div>
+               </div>
+            </div>
+         </section>
+
+         <section class="services section" id="services">
+            <div class="container">
+               <h2 class="section__title">Technical Skills &amp; <span>Tools</span></h2>
+
+               <div class="services__list">
+                  <div class="services__item open">
+                     <button class="services__button">
+                        <span>Programming &amp; application development</span>
+                        <i class="ri-arrow-down-s-line"></i>
+                     </button>
+                     <div class="services__content">
+                        <p>Visual Basic, Visual Basic .NET, JavaScript, PHP, Java, and C++; programming, coding, web technology, and application development fundamentals.</p>
+                     </div>
+                  </div>
+
+                  <div class="services__item">
+                     <button class="services__button">
+                        <span>IT support &amp; operating systems</span>
+                        <i class="ri-arrow-down-s-line"></i>
+                     </button>
+                     <div class="services__content">
+                        <p>Computer hardware and PC assembly, Windows, Linux, software installation and configuration, desktop and peripheral setup, and basic network setup and cabling.</p>
+                     </div>
+                  </div>
+
+                  <div class="services__item">
+                     <button class="services__button">
+                        <span>Software &amp; design tools</span>
+                        <i class="ri-arrow-down-s-line"></i>
+                     </button>
+                     <div class="services__content">
+                        <p>Microsoft Office, Visual Studio, Visual Studio Code, JetBrains tools, Adobe Photoshop, Adobe InDesign, AutoCAD, and SketchUp.</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+
+         <section class="testimonials section" id="education">
+            <div class="container">
+               <h2 class="section__title">Education &amp; <span>Certifications</span></h2>
+               <div class="education__grid">
+                  <article class="education__card">
+                     <img class="education__logo" src="assets/img/informatics-logo.png" alt="Informatics Baguio City Center Inc. logo">
+                     <p>With Honor · June 2024</p>
+                     <h3>Diploma in Information Technology</h3>
+                     <span>Informatics Baguio City Center Inc.</span>
+                  </article>
+                  <article class="education__card">
+                     <p>June 14, 2024</p>
+                     <h3>Computer Systems Servicing NC II</h3>
+                  </article>
+                  <article class="education__card">
+                     <p>July 13, 2024</p>
+                     <h3>Web Development NC III</h3>
+                  </article>
+                  <article class="education__card">
+                     <p>March 9, 2024</p>
+                     <h3>Visual Graphic Design NC III</h3>
+                     <span>Certificate of Competency</span>
+                  </article>
+                  <article class="education__card">
+                     <p>July 2021</p>
+                     <h3>Senior High School – HUMSS</h3>
+                     <span>Alejo M. Pacalso Memorial National High School</span>
+                  </article>
+                  <article class="education__card">
+                     <p>April 2019</p>
+                     <h3>Junior High School</h3>
+                     <span>Saint Louis High School of Balatoc, Inc.</span>
+                  </article>
+                  <article class="education__card">
+                     <p>March 2015</p>
+                     <h3>Elementary</h3>
+                     <span>Virac Elementary School</span>
+                  </article>
+               </div>
+            </div>
+         </section>
+
+         <section class="contact section" id="contact">
+            <div class="container">
+               <h2 class="section__title">Let’s <span>Talk</span></h2>
+               <div class="contact__content grid">
+                  <div>
+                     <p>Open to IT Assistant, IT Support, Help Desk, Junior Application Developer, and Computer Technician opportunities.</p>
+                     <p>Virac, Itogon, Benguet</p>
+                     <p><a href="tel:+639695463870">0969 546 3870</a></p>
+                  </div>
+                  <div class="contact__actions">
+                     <a href="mailto:aaronventura2003@gmail.com" class="button button--primary">aaronventura2003@gmail.com</a>
+                     <button class="button button--ghost" data-copy-email="#copy-email">Copy email</button>
+                     <span id="copy-email" class="hidden-email">aaronventura2003@gmail.com</span>
+                  </div>
+               </div>
+            </div>
+         </section>
+      </main>
+
+      <footer class="footer grid">
+         <div class="container footer__content">
+            <p>© <span id="year"></span> Aaron Ventura. All rights reserved.</p>
+         </div>
+      </footer>
+
+      <script src="assets/js/scrollreveal.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/animejs/lib/anime.iife.min.js"></script>
+      <script src="assets/js/swiper-bundle.min.js"></script>
+      <script src="assets/js/main.js"></script>
+   </body>
+</html>
